@@ -35,6 +35,8 @@ span {
     text-decoration: none;
 }
 
+/* Hero section */
+
 .hero-contain {
     background-color: #EBE5FA;
 }
@@ -53,6 +55,8 @@ span {
     font-weight: 400;
 }
 
+/* Lightning fast section  */
+
 .first-row {
     padding: 60px 0;
 }
@@ -69,6 +73,8 @@ span {
 .highlight {
     color: #651FFF;
 }
+
+/* Features section 1 */
 
 .card-1 {
     background-color: #FFF7ED;
@@ -89,7 +95,8 @@ span {
     padding: 100px 0;
 }
 
-#three ,#four{
+#three,
+#four {
     border-radius: 25px;
 }
 
@@ -146,20 +153,26 @@ span {
     border-bottom: 2px dotted;
 }
 
-.work-section,.ready-section,.footer-section{
+.work-section,
+.ready-section,
+.footer-section {
     padding: 100px 0px;
 }
 
-.ready-wrapper > div > div:nth-child(1) > div{
+.ready-wrapper>div>div:nth-child(1)>div {
     background-color: #651FFF;
     border-radius: 25px;
 }
 
-.ready-wrapper > div > div:nth-child(2) > div{
+.ready-wrapper>div>div:nth-child(2)>div {
     background-color: #ECECFE;
     border-radius: 25px;
 }
 
-.bg-footer{
+.bg-footer {
     background-color: var(--footer-bg);
+}
+
+.textcolor {
+    color: #E2E4E9;
 }
