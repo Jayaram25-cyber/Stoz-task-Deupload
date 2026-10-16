@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --brand-purple: #6214ff;
+    --footer-bg: #1A284E;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F2F2F2;
+}
+
+a,
+span {
+    display: inline-block;
+}
+
+.btn-signin,
+.btn-pricing {
+    border: 2px solid black;
+    padding: 8px 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.btn-create,
+.btn-started {
+    padding: 8px 15px;
+    font-weight: bold;
+    background-color: var(--brand-purple);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.hero-contain {
+    background-color: #EBE5FA;
+}
+
+.line-break {
+    display: block;
+}
+
+.hero-title {
+    font-size: 56px;
+    font-weight: bold;
+}
+
+.hero-para {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.first-row {
+    padding: 60px 0;
+}
+
+.feature-card {
+    background-color: var(--brand-purple);
+    border-radius: 20px;
+}
+
+.links {
+    text-decoration: none;
+}
+
+.highlight {
+    color: #651FFF;
+}
+
+.card-1 {
+    background-color: #FFF7ED;
+    border-radius: 25px;
+}
+
+.card-2 {
+    background-color: #E0F7FA;
+    border-radius: 25px;
+}
+
+.card-3 {
+    background-color: #ECECFE;
+    border-radius: 25px;
+}
+
+.grid-section {
+    padding: 100px 0;
+}
+
+#three ,#four{
+    border-radius: 25px;
+}
+
+.arrow {
+    filter: invert(1);
+}
+
+.pricing-section {
+    width: 100%;
+    padding: 100px 0;
+}
+
+.box {
+    min-height: 600px;
+    background-color: cyan;
+}
+
+.carding {
+    max-width: 560px;
+    max-height: 570px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.price {
+    margin: 0 !important;
+}
+
+.but {
+    display: block;
+    background-color: #651FFF;
+    color: white;
+    padding: 8px 25px;
+    border-radius: 10px;
+}
+
+.points {
+    margin: 0 !important;
+}
+
+.carding-2 {
+    max-width: 560px;
+    max-height: 570px;
+    background-color: white;
+    border-radius: 30px;
+    background-color: #651FFF;
+}
+
+.fontpara {
+    font-size: 14px;
+}
+
+.c-title {
+    border-bottom: 2px dotted;
+}
+
+.work-section,.ready-section,.footer-section{
+    padding: 100px 0px;
+}
+
+.ready-wrapper > div > div:nth-child(1) > div{
+    background-color: #651FFF;
+    border-radius: 25px;
+}
+
+.ready-wrapper > div > div:nth-child(2) > div{
+    background-color: #ECECFE;
+    border-radius: 25px;
+}
+
+.bg-footer{
+    background-color: var(--footer-bg);
+}
