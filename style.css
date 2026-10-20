@@ -92,7 +92,7 @@ span {
 
 
 .pricing-section{
-    background-color: #00E5FF;
+    background: linear-gradient(to bottom,#00e5ff 0%,#00e5ff 60%,#F2F2F2 60%,#F2F2F2 100%);
 }
 .price-wrapper > div > div:nth-child(1) > div{
     background-color: white;
