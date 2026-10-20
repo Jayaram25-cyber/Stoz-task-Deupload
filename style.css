@@ -41,58 +41,43 @@ span {
     background-color: #EBE5FA;
 }
 
-.line-break {
-    display: block;
+.lightning-section,
+.better-privacy,.work-section,.ready-section {
+    padding: 100px 0px;
 }
 
-.hero-title {
-    font-size: 56px;
-    font-weight: bold;
-}
-
-.hero-para {
-    font-size: 20px;
-    font-weight: 400;
-}
-
-/* Lightning fast section  */
-
-.first-row {
-    padding: 60px 0;
-}
-
-.feature-card {
+.lightning-wrapper>div>div>div {
     background-color: var(--brand-purple);
-    border-radius: 20px;
+    padding: 40px;
+    color: white;
+    border-radius: 25px;
 }
 
-.links {
-    text-decoration: none;
+.features-heading {
+    padding: 70px 0px;
 }
-
-.highlight {
-    color: #651FFF;
-}
-
-/* Features section 1 */
 
 .card-1 {
     background-color: #FFF7ED;
+    padding: 30px 30px 15px 30px;
     border-radius: 25px;
 }
 
 .card-2 {
     background-color: #E0F7FA;
+    padding: 30px 30px 0px 30px;
     border-radius: 25px;
 }
 
 .card-3 {
     background-color: #ECECFE;
+    padding: 30px;
     border-radius: 25px;
 }
 
-.grid-section {
-    padding: 100px 0;
+.highlight {
+    color: #651FFF;
+    letter-spacing: -2px;
 }
 
 #three,
@@ -100,63 +85,31 @@ span {
     border-radius: 25px;
 }
 
-.arrow {
-    filter: invert(1);
+.dashed-line{
+    border-top: 2px dashed;
+    color: wheat;
 }
 
-.pricing-section {
-    width: 100%;
-    padding: 100px 0;
-}
 
-.box {
-    min-height: 600px;
-    background-color: cyan;
+.pricing-section{
+    background-color: #00E5FF;
 }
-
-.carding {
-    max-width: 560px;
-    max-height: 570px;
+.price-wrapper > div > div:nth-child(1) > div{
     background-color: white;
-    border-radius: 30px;
+    padding: 40px;
+    border-radius: 25px;
 }
 
-.price {
-    margin: 0 !important;
-}
 
-.but {
-    display: block;
-    background-color: #651FFF;
+.price-wrapper > div > div:nth-child(2) > div{
+    background-color: var(--brand-purple);
+    padding: 40px;
+    border-radius: 25px;
     color: white;
-    padding: 8px 25px;
-    border-radius: 10px;
 }
 
-.points {
+.price ,.points{
     margin: 0 !important;
-}
-
-.carding-2 {
-    max-width: 560px;
-    max-height: 570px;
-    background-color: white;
-    border-radius: 30px;
-    background-color: #651FFF;
-}
-
-.fontpara {
-    font-size: 14px;
-}
-
-.c-title {
-    border-bottom: 2px dotted;
-}
-
-.work-section,
-.ready-section,
-.footer-section {
-    padding: 100px 0px;
 }
 
 .ready-wrapper>div>div:nth-child(1)>div {

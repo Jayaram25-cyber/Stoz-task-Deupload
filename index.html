@@ -4,8 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deupload</title>
-
+    <title>Document</title>
     <!-- Bootstrap cdn link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -24,7 +23,7 @@
     <!-- Navbar -->
     <section id="header" class="border-bottom">
         <div class="container-fluid px-4 py-2">
-            <div class="d-block d-sm-flex align-items-sm-center justify-content-sm-between ">
+            <div class="d-block d-sm-flex justify-content-sm-between align-items-sm-center">
                 <div>
                     <a href="#">
                         <img src="./Assets/logo-color 1.png" alt="Logo" height="36">
@@ -41,34 +40,28 @@
     </section>
 
     <!-- Hero section -->
-    <section id="hero-section">
-        <div class="container-fluid hero-contain">
+    <section class="hero-section hero-contain">
+        <div class="container">
             <div class="py-5 text-center">
+                <h1 class="py-4 display-4 fw-bold">
+                    <span class="d-md-block">File storage and sharing for</span>
+                    <span class="d-md-block">remote teams that work </span>
+                    <span class="d-md-block">together on <span class="highlight">Web3</span></span>
+                </h1>
 
-                <div>
-                    <h1 class="py-4 display-4 fw-bold">
-                        <span class="d-md-block">File storage and sharing for</span>
-                        <span class="d-md-block">remote teams that work </span>
-                        <span class="d-md-block">together on <span class="highlight">Web3</span></span>
-                    </h1>
-                </div>
-
-                <div>
-                    <p class="py-3 text-center fs-6 fs-lg-4">
-                        <span class="line-break">Deupload is a online file manager on decentralized cloud storage and
-                            IPFS </span>
-                        <span class="line-break">that allows you storage, share, collect files privately and team
-                            collaboration
-                            without</span>
-                        <span class="line-break">subscription.</span>
-                    </p>
-                </div>
+                <p class="py-3 text-center">
+                    <span class="d-md-block">Deupload is a online file manager on decentralized cloud storage and
+                        IPFS </span>
+                    <span class="d-md-block">that allows you storage, share, collect files privately and team
+                        collaboration
+                        without</span>
+                    <span class="d-md-block">subscription.</span>
+                </p>
 
                 <div class="d-sm-flex justify-content-center gap-4">
                     <a href="#" class="btn-started">Get Started</a>
                     <a href="#" class="btn-pricing">Pricing</a>
                 </div>
-
             </div>
         </div>
     </section>
@@ -83,227 +76,261 @@
     </section>
 
     <!-- Lightning fast section -->
-    <section id="light-fast">
+    <section class="lightning-section">
         <div class="container">
-            <div class="row first-row">
-                <div class="col-12 px-4 text-center">
-                    <p class="display-5 fw-bold py-2">Lightning fast. Better privacy. Fairer cost.</p>
-                    <p>
-                        <span class="line-break">You can choose continue to use centralized cloud storage but we have
-                            some better reasons for</span>
-                        <span class="line-break">
-                            you to start moving to decentralized storage because it is simply the future of the
-                            internet.
-                        </span>
-                    </p>
-                </div>
+            <div class="lightning-heading text-center mb-5">
+                <h2 class="mb-3 fw-bold">Lightning fast. Better privacy. Fairer cost.</h2>
+                <p class="mb-3">
+                    <span class="d-md-block">You can choose continue to use centralized cloud storage but we have some
+                        better reasons for</span>
+                    <span class="d-md-block">you to start moving to decentralized storage because it is simply the
+                        future of the internet.</span>
+                </p>
             </div>
 
-            <div class="row py-2 px-2 mx-auto d-flex gap-3 justify-content-center">
-                <div class="col-lg-3 feature-card p-5 text-white">
-                    <img src="./Assets/Group 364.png" alt="" class="img-fluid mb-3 w-auto">
-                    <h3 class="fw-bold mb-3">Lightweight</h3>
-                    <p class="mb-4">Designed to be lightweight to help you enhance team collaboration by organizing and
-                        sharing files
-                        in your projects without stress.</p>
-                    <a href="" class="text-decoration-none text-white fw-bold">Products <img
-                            src="./Assets/arrow-right-long 3.png" alt="" class="px-1"></a>
-                </div>
-                <div class="col-lg-3 feature-card p-5 text-white">
-                    <img src="./Assets/Group 370.png" alt="" class="img-fluid mb-3 w-auto">
-                    <h3 class="fw-bold mb-3">Decentralization</h3>
-                    <p class="mb-4">Store data securely on over 13k nodes worldwide instead of just a few vulnerable
-                        data centers with privacy and lightning speed by design.</p>
-                    <a href="" class="text-decoration-none text-white fw-bold">How it works <img
-                            src="./Assets/arrow-right-long 3.png" alt="" class="px-1"></a>
-                </div>
-                <div class="col-lg-3 feature-card p-5 text-white">
-                    <img src="./Assets/Group 371.png" alt="" class="img-fluid mb-3 w-auto">
-                    <h3 class="fw-bold  mb-3">Scaling</h3>
-                    <p class="mb-4">With Pay-as-you-go pricing, now you only pay for the resource you use without being
-                        charged a flat monthly fee even if you don’t use it up.</p>
-                    <a href="" class="text-decoration-none text-white fw-bold">Metered billing <img
-                            src="./Assets/arrow-right-long 3.png" alt="" class="px-1"></a>
+            <div class="lightning-wrapper">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="mb-4 mb-lg-0">
+                            <img src="./Assets/Group 364.png" alt="" class="img-fluid mb-3 w-auto">
+                            <h3 class="fw-bold mb-3">Lightweight</h3>
+                            <p>Designed to be lightweight to help you enhance team collaboration by organizing and
+                                sharing files in your projects without stress.</p>
+                            <a href="" class="text-decoration-none text-white fw-bold">Products <img
+                                    src="./Assets/arrow-right-long 3.png" alt="" class="px-1"></a>
+                        </div>
+                    </div>
 
+                    <div class="col-lg-4">
+                        <div class="mb-4 mb-lg-0">
+                            <img src="./Assets/Group 364.png" alt="" class="img-fluid mb-3 w-auto">
+                            <h3 class="fw-bold mb-3">Decentralization</h3>
+                            <p>Designed to be lightweight to help you enhance team collaboration by organizing and
+                                sharing files in your projects without stress.</p>
+                            <a href="" class="text-decoration-none text-white fw-bold">Products <img
+                                    src="./Assets/arrow-right-long 3.png" alt="" class="px-1"></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="mb-4 mb-lg-0">
+                            <img src="./Assets/Group 364.png" alt="" class="img-fluid mb-3 w-auto">
+                            <h3 class="fw-bold mb-3">Testing</h3>
+                            <p>Designed to be lightweight to help you enhance team collaboration by organizing and
+                                sharing files in your projects without stress.</p>
+                            <a href="" class="text-decoration-none text-white fw-bold">Products <img
+                                    src="./Assets/arrow-right-long 3.png" alt="" class="px-1"></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Features section 1 -->
-    <section id="Features-section">
+    <section class="features-section">
+        <div class="container">
+            <div class="features-heading">
+                <h1 class="fw-bold fs-lg-1">
+                    <span class="d-md-block">Your design, ready to use </span>
+                    <span class="d-md-block highlight">for team productivity.</span>
+                </h1>
+            </div>
+
+            <div class="features-wrapper">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-4 mb-lg-0 text-center card-1">
+                            <h2 class="fw-bold mb-3 highlight">File Sharing</h2>
+                            <p class="text-secondary mb-3">
+                                <span class="d-md-block">Securely share files within or outside your</span>
+                                <span class="d-md-block">organization, and
+                                    control
+                                    access, track edits,</span>
+                                <span class="d-md-block">and analyze the shared content stats</span>
+                            </p>
+                            <img src="./Assets/deupload-file-sharing 2.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-4 mb-lg-0 text-center card-2">
+                            <h2 class="fw-bold mb-3 highlight">Collect Files</h2>
+                            <p class="text-secondary mb-3">
+                                <span class="d-md-block">You can collect and receive files in a secure </span>
+                                <span class="d-md-block">environment,
+                                    even if
+                                    the other person doesn’t</span>
+                                <span class="d-md-block">have a Deupload account.</span>
+                            </p>
+                            <img src="./Assets/deupload-file-request 1.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col">
+                        <div class="d-block d-md-flex justify-content-around card-3 mt-4">
+                            <div class="p-3">
+                                <h2 class="fw-bold text-start fs-1 mb-4">
+                                    <span class="d-md-block highlight">Team
+                                        collaboration
+                                    </span>
+                                    <span class="d-md-block">in one simple place with </span>
+                                    <span class="d-md-block">privacy come first. </span>
+                                </h2>
+
+                                <p class="mb-5">
+                                    <span class="d-md-block">Securely share and work together with Deupload’s </span>
+                                    <span class="d-md-block"> simple file storage and sharing, easy user</span>
+                                    <span class="d-md-block">management, unlimited file size, password</span>
+                                    <span class="d-md-block"></span>
+                                </p>
+
+                                <div class="d-sm-flex gap-4">
+                                    <a href="#" class="btn-started">Start Now</a>
+                                    <a href="#" class="btn-pricing">More features</a>
+                                </div>
+                            </div>
+
+                            <div>
+                                <img src="./Assets/Group 232.png" alt="" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="better-privacy">
         <div class="container">
             <div class="row">
-                <div class="col-7  my-5 py-5">
-                    <h1 class="display-4 fw-bold">Your design, ready to use for <span class="highlight">team
-                            productivity.</span></h1>
-                </div>
-            </div>
-
-            <div class="row py-2 px-3 d-md-flex d-block justify-content-evenly">
-                <div class="col-md-5  card-1 p-lg-5 p-md-4 p-5 text-center mb-4">
-                    <h3 class="fw-bold">File Sharing</h3>
-                    <p class="text-secondary mb-3">Securely share files within or outside your organization, and control
-                        access, track edits, and analyze the shared content stats.</p>
-                    <img src="./Assets/deupload-file-sharing 2.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-md-5  card-2 p-lg-5 p-md-4 p-5 text-center mb-4">
-                    <h3 class="display-6 fw-bold">Collect Files</h3>
-                    <p class="text-secondary mb-3"> You can collect and receive files in a secure environment, even if
-                        the other person doesn’t have a Deupload account.</p>
-                    <img src="./Assets/deupload-file-request 1.png" alt="" class="img-fluid">
-                </div>
-            </div>
-
-            <div class="row my-4 mx-5 card-3 d-md-flex justify-content-evenly d-block">
-                <div class="col-6 text-center mb-4 p-lg-5 p-md-4 p-5">
-                    <h3 class="fw-bold py-3 px-1 display-5 text-start"><span class="highlight">Team collaboration
-                        </span> in one simple place with privacy come first.</h3>
-                    <p class="text-secondary mb-3">Securely share and work together with Deupload’s simple file storage
-                        and sharing, easy user
-                        management, unlimited file size, password protected links and more.</p>
-
-                    <div class="d-sm-flex justify-content-center gap-4">
-                        <a href="#" class="btn-started">Get Started</a>
-                        <a href="#" class="btn-pricing">Pricing</a>
-                    </div>
-                </div>
-                <div class="col-6 text-center mb-4">
-                    <img src="./Assets/Group 232.png" alt="" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Features section 2 -->
-    <section>
-        <div class="container grid-section">
-            <div class="row p-4 d-md-flex justify-content-center">
-                <div class="col-12 col-md-6 py-3 ">
-                    <div id="one">
+                <div class="col-md-6">
+                    <div class="p-2 mb-4 mb-lg-0">
                         <h1 class="fw-bold py-3 display-4">Decentralized <span>storage built for</span> <span
                                 class="highlight">better privacy.</span></h1>
-                    </div>
-                    <div id="two">
-                        <p class="lead">Store data securely on over 13k nodes worldwide instead of just a few vulnerable
+
+                        <p class="lead mb-5">Store data securely on over 13k nodes worldwide instead of just a few
+                            vulnerable
                             data centers
                             with privacy. Every file is encrypted, split into pieces, and stored on a global network of
                             nodes, making data breaches and downtime a thing of the past.</p>
+
+                        <div class="d-block d-lg-flex gap-4">
+                            <div class="mb-3 mb-lg-0">
+                                <img src="./Assets/Group 372.png" alt="" class="mb-3">
+                                <h4>Upgrade your storage</h4>
+                                <p>Better security, performance and cost, Deupload is the better way to store data.</p>
+                                <a href="" class="text-decoration-none text-primary fw-bold">Learn Use Cases <img
+                                        src="./Assets/arrow-right-long 3.png" alt="" class="px-1 arrow"></a>
+                            </div>
+
+                            <div>
+                                <img src="./Assets/Group 373.png" alt="" class="mb-3">
+                                <h4>Carbon neutral storage.</h4>
+                                <p>Utilizing existing unused storage capacity on recycled hardware around the world.</p>
+                                <a href="" class="text-decoration-none text-success fw-bold">Environmental impact <img
+                                        src="./Assets/arrow-right-long 3.png" alt="" class="px-1 arrow"></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 ">
-                    <div id="three" class=" p-4 mb-3 bg-light">
-                        <img src="./Assets/Group 374.png" alt="" class="img-fluid">
-                        <h4 class="fw-bold">Private by design</h4>
-                        <p>We believe data privacy is a human right, which is why Deupload is built on a decentralized
-                            architecture that makes data breaches a thing of the past.</p>
-                    </div>
-                    <div id="four" class="p-4 mb-3 bg-light">
-                        <img src="./Assets/Group 374.png" alt="" class="img-fluid">
-                        <h4 class="fw-bold">Distributed network</h4>
-                        <p>An object is never in one place. Data is split into 80 pieces, and distributed to
-                            uncorrelated Nodes. When you call for the data, it’s automatically reconstituted in an
-                            instant.</p>
+                <div class="col-md-6">
+                    <div>
+                        <div id="three" class=" p-4 mb-3 bg-light">
+                            <img src="./Assets/Group 374.png" alt="" class="img-fluid mb-2">
+                            <h4 class="fw-bold">Private by design</h4>
+                            <p>We believe data privacy is a human right, which is why Deupload is built on a
+                                decentralized
+                                architecture that makes data breaches a thing of the past.</p>
+                        </div>
+
+                        <div id="four" class="p-4 mb-3 bg-light">
+                            <img src="./Assets/Group 374.png" alt="" class="img-fluid mb-2">
+                            <h4 class="fw-bold">Distributed network</h4>
+                            <p>An object is never in one place. Data is split into 80 pieces, and distributed to
+                                uncorrelated Nodes. When you call for the data, it’s automatically reconstituted in an
+                                instant.</p>
+                        </div>
+
+                        <div id="three" class="p-4 mb-3 bg-light">
+                            <img src="./Assets/Group 374.png" alt="" class="img-fluid mb-2">
+                            <h4 class="fw-bold">Data privacy</h4>
+                            <p>Data is stored on Nodes that are selected by reputation and local latency. The fastest
+                                Nodes
+                                from this set are chosen to store pieces, ensuring quick access to your data.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <div class="row p-4 d-md-flex flex-column flex-md-row">
-                <div
-                    class="col-12 col-md-12 col-lg-6 d-flex flex-column flex-md-row justify-content-lg-around p-4 gap-1">
-                    <div class="col-md-6 m-2 ">
-                        <img src="./Assets/Group 372.png" alt="">
-                        <h4>Upgrade your storage</h4>
-                        <p>Better security, performance and cost, Deupload is the better way to store data.</p>
-                        <a href="" class="text-decoration-none text-primary fw-bold">Learn Use Cases <img
-                                src="./Assets/arrow-right-long 3.png" alt="" class="px-1 arrow"></a>
+    <section class="pricing-section">
+        <div class="container">
+            <div class="price-heading text-center pt-5">
+                <h1 class="fw-bold mb-2">
+                    Simple. <span class="highlight">Fair pricing.</span>
+                </h1>
+                <p class="hero-subtitle mb-0">
+                    Pay for what you use. There is no minimum charge. Always know what you'll pay.
+                </p>
+            </div>
+
+            <div class="price-wrapper mt-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="text-center mb-4">
+                            <h4 class="fw-bold fs-2">Storage</h4>
+                            <p class="text-secondary fs-6">Access a complete decentralized storage with simple,
+                                pay-as-you-go
+                                pricing</p>
+                            <p class="fw-bold fs-1 price">$0.008</p>
+                            <p class="fs-6">per GB/month</p>
+
+                            <a href="" class="text-decoration-none but mb-4">Get started in minutes</a>
+
+                            <p class="points"><img src="./Assets/point.png" alt="" class="pe-2">Everything you need to
+                                storage
+                                & share
+                                files</p>
+                            <p class="points"><img src="./Assets/point.png" alt="" class="pe-2">Everything you need to
+                                storage
+                                & share
+                                files</p>
+                            <p class="points"><img src="./Assets/point.png" alt="" class="pe-2">Everything you need to
+                                storage
+                                & share
+                                files</p>
+                        </div>
                     </div>
                     <div class="col-md-6">
-                        <img src="./Assets/Group 373.png" alt="">
-                        <h4>Carbon neutral storage.</h4>
-                        <p>Utilizing existing unused storage capacity on recycled hardware around the world.</p>
-                        <a href="" class="text-decoration-none text-success fw-bold">Environmental impact <img
-                                src="./Assets/arrow-right-long 3.png" alt="" class="px-1 arrow"></a>
-                    </div>
+                        <div class="text-center mb-4">
+                            <h5 class="fw-bold fs-5 text-start c-title">Transfer</h5>
+                            <p class="text-white fontpara text-start">Pay only for what you use. There is no minimum
+                                charge.
+                                You
+                                pay for all
+                                bandwidth into and out of Deupload.
+                            </p>
+                            <p class="d-block text-start points">
+                                <span class="badge text-bg-light">Inbound</span>
+                            </p>
+                            <span class="fw-medium fs-2 d-block text-start">$0.006</span>
+                            <p class="fs-6 d-block text-start mb-3">per GB/month</p>
 
-                </div>
-                <div class="col-12 col-md-12 col-lg-6">
-                    <div id="three" class="p-4 mb-3 bg-light">
-                        <img src="./Assets/Group 374.png" alt="" class="img-fluid">
-                        <h4 class="fw-bold">Private by design</h4>
-                        <p>Data is stored on Nodes that are selected by reputation and local latency. The fastest Nodes
-                            from this set are chosen to store pieces, ensuring quick access to your data.</p>
+                            <p class="d-block text-start points">
+                                <span class="badge text-bg-light">Outbound</span>
+                            </p>
+                            <span class="fw-medium fs-2 d-block text-start">$0.006</span>
+                            <p class="fs-6 d-block text-start">per GB/month</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Pricing section -->
-    <section class="pricing-section">
-        <div class="box">
-            <div class="container">
-
-                <div class="row">
-                    <div class="col-12 text-center p-4 my-5">
-                        <h1 class="fw-bold fs-1">Simple. Fair pricing.</h1>
-                        <p>Pay for what you use. There is no minimum charge. Always know what you’ll pay.</p>
-                    </div>
-                </div>
-
-                <div class="cards-wrapper d-block d-md-flex justify-content-around gap-2 pb-3">
-                    <div class="carding text-center p-5 mb-4">
-                        <h4 class="fw-bold fs-2">Storage</h4>
-                        <p class="text-secondary fs-6">Access a complete decentralized storage with simple,
-                            pay-as-you-go
-                            pricing</p>
-                        <p class="fw-bold fs-1 price">$0.008</p>
-                        <p class="fs-6">per GB/month</p>
-
-                        <a href="" class="text-decoration-none but mb-4">Get started in minutes</a>
-
-                        <p class="points"><img src="./Assets/point.png" alt="" class="pe-2">Everything you need to
-                            storage
-                            & share
-                            files</p>
-                        <p class="points"><img src="./Assets/point.png" alt="" class="pe-2">Everything you need to
-                            storage
-                            & share
-                            files</p>
-                        <p class="points"><img src="./Assets/point.png" alt="" class="pe-2">Everything you need to
-                            storage
-                            & share
-                            files</p>
-                    </div>
-
-                    <div class="carding-2 text-center p-5 text-light">
-                        <h5 class="fw-bold fs-5 text-start c-title">Transfer</h5>
-                        <p class="text-white fontpara text-start">Pay only for what you use. There is no minimum charge.
-                            You
-                            pay for all
-                            bandwidth into and out of Deupload.
-                        </p>
-                        <p class="d-block text-start points">
-                            <span class="badge text-bg-light">Inbound</span>
-                        </p>
-                        <span class="fw-medium fs-2 d-block text-start">$0.006</span>
-                        <p class="fs-6 d-block text-start mb-3">per GB/month</p>
-
-                        <p class="d-block text-start points">
-                            <span class="badge text-bg-light">Outbound</span>
-                        </p>
-                        <span class="fw-medium fs-2 d-block text-start">$0.006</span>
-                        <p class="fs-6 d-block text-start">per GB/month</p>
-                    </div>
-
-                </div>
-
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Work section -->
     <section class="work-section">
         <div class="container">
             <div class="work-heading text-center  mb-5">
@@ -339,7 +366,6 @@
         </div>
     </section>
 
-    <!-- Ready to start section -->
     <section class="ready-section">
         <div class="container">
             <div class="d-md-flex justify-content-between align-items-center my-5">
@@ -395,7 +421,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-footer text-white pt-5 pb-4">
         <div class="container">
             <div class="row gy-4 gy-lg-0">
@@ -474,6 +499,91 @@
 
         </div>
     </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <!-- Bootstrap js cdn link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
